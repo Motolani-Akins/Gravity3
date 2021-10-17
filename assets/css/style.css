@@ -1,0 +1,122 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+html {
+ color: #222;
+ font-family: "Fira Sans", sans-serif;
+ font-size: 20px;
+ font-weight: 200;
+ text-rendering: optimizeLegibility;
+}
+
+.container {
+ position: relative;
+ height: 100vh;
+ background-color: rgba(247, 237, 222, 1);
+ background-image: url(../images/opaquebg.png);
+}
+
+.nav {
+ position: relative;
+ 
+}
+
+.nav__container {
+ display: flex;
+ height: 120px;
+ flex-direction: row;
+ align-items: center;
+ justify-content: space-between;
+ padding: 0 50px;
+ 
+}
+
+.nav__icon {
+
+}
+.nav__list ul{
+display: flex;
+}
+
+.nav__list li {
+ list-style: none;
+ font-size: 18px;
+ font-weight: 400;
+ margin-left: 10px;
+ color: rgba(34, 34, 34, 0.3);
+ cursor: pointer;
+}
+
+.nav__list li:active, 
+.nav__list li:hover{
+ color: rgb(34, 34, 34);
+}
+.social-media{
+ display: flex;
+ padding: 0 50px;
+ margin-top: 60px;
+}
+
+.social-media svg {
+ margin-right:28px;
+}
+
+.content {
+ flex-direction: row;
+ display: flex;
+}
+.hero{
+ padding: 0 50px;
+ margin-top: 100;
+}
+.hero__text{
+ font-size: 60px;
+ font-weight:600;
+ letter-spacing: -1px;
+ line-height: 70px;
+ color: #222;
+ width: 70%;
+}
+.hero__text-description{
+ font-size: 18px;
+ font-weight:400;
+ line-height: 28px;
+ color: #212121b4;
+ width: 40%;
+}
+
+.button{
+ margin-top: 40px;
+}
+.button a{
+ font-size: 14px;
+ font-weight: 400;
+ text-decoration: none;
+ letter-spacing: 1px;
+ color: white;
+ display: inline-block;
+ background: #4737FF;
+ padding:10 20 10 20;
+}
+
+.video {
+ height: 100vh;
+ position: absolute;
+ right: 0;
+ top: 0;
+}
+
+.video img {
+ height: 100vh;
+ /* margin-top: -195px; */
+}
+
+.play-button {
+ position: absolute;
+ 
+ top: 80vh;
+ right: 90%;
+}
