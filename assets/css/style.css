@@ -117,3 +117,9 @@ display: flex;
  top: 80vh;
  right: 90%;
 }
+
+.video .nav__menu {
+ position: absolute;
+ top: 50px;
+ right: 10%;
+}
